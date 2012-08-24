@@ -1,0 +1,19 @@
+diff -Naur pygooglevoice-0.5/googlevoice/settings.py pygooglevoice-0.5-patch/googlevoice/settings.py
+--- pygooglevoice-0.5/googlevoice/settings.py	2009-12-07 09:18:15.000000000 -0800
++++ pygooglevoice-0.5-patch/googlevoice/settings.py	2012-08-23 23:09:09.385067346 -0700
+@@ -19,7 +19,7 @@
+ """
+ 
+ DEBUG = False
+-LOGIN = 'https://www.google.com/accounts/ServiceLoginAuth?service=grandcentral'
++LOGIN = 'https://accounts.google.com/ServiceLoginAuth?service=grandcentral'
+ FEEDS = ('inbox', 'starred', 'all', 'spam', 'trash', 'voicemail', 'sms',
+         'recorded', 'placed', 'received', 'missed')
+ 
+@@ -50,4 +50,4 @@
+ XML_RECORDED = XML_RECENT + 'recorded/'
+ XML_PLACED = XML_RECENT + 'placed/'
+ XML_RECEIVED = XML_RECENT + 'received/'
+-XML_MISSED = XML_RECENT + 'missed/'
+\ No newline at end of file
++XML_MISSED = XML_RECENT + 'missed/'
