@@ -26,6 +26,7 @@ install the library.
 Make `~/.gvoice` and `~/.dingwho` files in your home directory. The `~/.gvoice`
 file contains account settings for authenticating with Google Voice. The
 `~/.dingwho` file contains the phone number to text when commands are complete.
+See the example files in the `examples` directory for the format.
 
 ## 3. Ding!
 
@@ -43,9 +44,9 @@ command might be.
 
 ***What will you do with all your newfound time?***
 
-!(Winner)[http://i.imgur.com/krPqC.gif]
+![Winner](http://i.imgur.com/krPqC.gif)
 
-## Parting Notes
+### Parting Notes
 
 Don't forget that if you want to run a command with shell redirection, you're
 going to need to quote the whole command so the redirection doesn't get applied
@@ -53,5 +54,5 @@ at the ding level (you want it passed through to the shell that ding spawns).
 For example:
 
 ```shell
-ding "awesome | grep sauce"
+$ ding "awesome | grep sauce"
 ```
