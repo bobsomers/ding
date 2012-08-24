@@ -56,3 +56,5 @@ For example:
 ```shell
 $ ding "awesome | grep sauce"
 ```
+
+Ding is released under the MIT license.
