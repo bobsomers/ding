@@ -1,3 +1,3 @@
-# Ding: A text-messaging microwave timer for the command line.
+# Ding: A text-messaging microwave timer for your command line.
 
 Documentation forthcoming.
